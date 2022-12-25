@@ -1,7 +1,3 @@
-[![MIT License][license-shield]][license-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
