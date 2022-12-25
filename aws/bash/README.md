@@ -5,6 +5,9 @@ This shell script loops through the regions available as of December 2022 listin
 2) the terminal supports Bash;
 3) the shell script has the appropriate execute permissions to run. (chmod +x get-dynamo-tables-all-regions.sh).
 
+#### Running the script in GitBash
+./get-dynamo-tables-all-regions.sh
+
 It's relatively easy to get a list of regions in the cli using:
 ```
 aws ec2 describe-regions
