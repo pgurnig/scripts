@@ -19,7 +19,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project contains a variety of scripts that have made my life a bit easier. These scripts could be cli scripts, T-SQL scripts, etc. Individual folders may contain README files as well with additional information.
+This project contains scripts simplifying common tasks such as viewing all DynamoDB tables across AWS Regions or seeing date formats available through CONVERT(). These scripts could be cli scripts, T-SQL scripts, etc. Individual folders may contain README files as well with additional information.
 
 
 <!-- GETTING STARTED -->
