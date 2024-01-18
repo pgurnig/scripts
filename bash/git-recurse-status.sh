@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 baseDir="."
 readarray -d '' arr < <(find "${baseDir}" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z)
 
@@ -8,7 +9,7 @@ for x in ${arr[@]}; do
   echo "================================================="
   echo ${cleandir}
   cd ${cleandir}
-  git status -s
+  git status $1
   cd ..
 done
 exit
